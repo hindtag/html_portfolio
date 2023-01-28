@@ -1,0 +1,30 @@
+Steps:
+1. Create a html skeleton using shift + !
+2. Create meta data
+    <meta name="author" content="Mark Vargas">
+    <meta name="description" content="This is my first portfolio using HTML">
+3. Adding the favicon
+    <link rel="icon" href="/imageLocation/img.filetype" type="image/s-icon">
+4. Adding the stylesheet css
+5. Creating the layout element/block
+    Starting with the header, main and footer
+        <header>
+        <main>
+        <footer>
+6. Continue the development per layout
+        1. <header>
+                h1
+                nav
+            </header>
+        2. <main>
+                <article>
+                    <section>
+                        content
+                    </section>
+                <article>
+           </main>
+7. Adding images
+        Make sure to add; alt, title, title, width and height loading=lazy
+
+
+
