@@ -1,30 +1,95 @@
-Steps:
-1. Create a html skeleton using shift + !
-2. Create meta data
-    <meta name="author" content="Mark Vargas">
-    <meta name="description" content="This is my first portfolio using HTML">
-3. Adding the favicon
-    <link rel="icon" href="/imageLocation/img.filetype" type="image/s-icon">
-4. Adding the stylesheet css
-5. Creating the layout element/block
-    Starting with the header, main and footer
-        <header>
-        <main>
-        <footer>
-6. Continue the development per layout
-        1. <header>
-                h1
-                nav
-            </header>
-        2. <main>
-                <article>
-                    <section>
-                        content
-                    </section>
-                <article>
-           </main>
-7. Adding images
+# Steps:
+0. Create html files.
+1. Create a html boilerplate using shift + !
+2. Complete the <head>
+        Create meta data:
+            <meta name="author" content="Mark Vargas">
+            <meta name="description" content="This is my first portfolio using HTML">
+            <meta title>
+        Adding the favicon.
+            <link rel="icon" href="/imageLocation/img.filetype" type="image/s-icon">
+        Adding the stylesheet.
+            <link rel="stylesheet" href="/style.css" type="text/css">
+4. Start the body element <body>
+        Start with the header element <header>
+            Create page header with <h1>
+            Create navigation with <nav>
+                Inside nav create unordered list using <ul>
+                    with different list using <li> with <a href=""> for the pages.
+                Under </nav>
+                    Create a figure for hero image
+5. In between the header and the body element
+        Continue the layout for the <main> element.
+            <!-- Content will go here -->
+
+6. Create the footer <footer> after the main element.
+7. Copy the custom boilerplate to the other pages.
+8. Edit the meta data, navigation of each of the pages.
+9. From here, you will be working with the content of the page under the <main> main element
+        Beginning the <main>
+            with article element <article id="">
+            You can now populate this part with the content.
+            Don't forget the heading element such as <h2> or <h3> to use after <article> for SEO purposes.
+10. Continue finishing the pages.
+11. Validate the pages on w3validator. 
+
+
+
+## Note:
+    - Use <abbr> for the text that needs abbr such as GMA etc.
+    - Adding images
         Make sure to add; alt, title, title, width and height loading=lazy
+    - Use emojepedia for emoji.
+    - Use <aside> for toggle but don't forget to follow it up with <h3> for the semantics.
+    - <details> are used to invoke the toggle, follow it up with <summary> for the question then using <p> for the answer.
+    - <article id=""> should be used instead of <div>, where id is used for the semantic navigation using # on the menu.
+    - When using an image, always make sure that you add alt, title, width, height and loading="lazy". 
+    - When using a table, the heirarchy is this
+            <table>
+                <caption>
+                <thead>
+                    <tr>
+                        <th>
+                <tbody>
+                    <tr>
+                        <th>
+                            <td>
+                <tfoot>
+                    <tr>
+                        <td>
+    - Use <dl> + <dt> + <dd> for operation hours/schedules.
+    - For form, the heirarchy are
+            <section>
+                <form action="https:address" method/get>
+                    <fieldset>
+                        <legend>
+                        <p>
+                            <label>
+                            <input>
+                    <button>
+                </form>
+            <section>
 
-
-
+## Visual representation
+<html>
+    <head>
+        <meta data>
+        <favicon>
+        <stylesheet>
+    <body>
+        <header>
+            <h1>
+            <nav>
+                <ul
+                    <li>
+                    <li>
+        <main>
+            <-- Content goes here -->
+            <article id="">
+                <h2>
+                <p>
+                <aside>
+                <etc>
+            <article id="">
+        <footer>
+            <-- Footer goes here -->
